@@ -44,7 +44,7 @@ int main(int argc, char** argv)
 
        
     if ( (argc > 1) && (strcmp(argv[1],"-h") == 0) ) {
-          std::cerr << "usage: ./cv_video_srv [port] [capture device]\n" <<
+          std::cerr << "usage: ./cvserver [port] [capture device]\n" <<
                        "port           : socket port (4097 default)\n" <<
                        "capture device : (0 default)\n" << std::endl;
 
