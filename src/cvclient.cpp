@@ -23,7 +23,7 @@ int main(int argc, char** argv)
     int         serverPort;
 
     if (argc < 3) {
-           std::cerr << "Usage: cv_video_cli <serverIP> <serverPort> " << std::endl;
+           std::cerr << "Usage: cvclient <serverIP> <serverPort> " << std::endl;
     }
 
     serverIP   = argv[1];
